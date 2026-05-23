@@ -82,7 +82,9 @@ fn run_val(
             args,
             method_name,
             target,
-        }) => {}
+        }) => {
+            todo!()
+        }
         ValueType::Constructor(class_id, values) => todo!(),
         ValueType::Variable(var_id) => values.get(&var_id).unwrap().clone(),
         ValueType::StringLiteral(x) => ObjectEnum::String(x),
