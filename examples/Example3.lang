@@ -1,0 +1,14 @@
+Use StandardLibrary Collections String As String
+Use StandardLibrary Executable As Executable
+Use StandardLibrary Bool As Bool
+
+Inherit Executable
+
+String Str String()
+
+Void Execute Method String Arguments
+\tString Str String()
+\t
+\tDo
+\t\tString SecondStr String()
+\tUntil Bool().True()

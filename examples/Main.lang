@@ -1,0 +1,20 @@
+Use StandardLibrary Collections String As String
+Use StandardLibrary Executable As Executable
+Use StandardLibrary Bool As Bool
+Use StandardLibrary Int As Int
+
+"required to run the file"
+Inherit Executable
+
+String Str String()
+
+Void Execute Method String Arguments
+\tString Str String()
+\t"Comments still have to be indented"
+\tInt I Int().Set(0)
+\t
+\tDo
+\t\tIf I.Get()
+\t\t\tString SecondStr String()
+\t\tI.Increment()
+\tUntil Bool().True()

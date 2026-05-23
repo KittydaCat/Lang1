@@ -1,0 +1,9 @@
+Use StandardLibrary Collections String As String
+Use StandardLibrary Executable As Executable
+
+Inherit Executable
+
+String Str String()
+
+Void Execute Method String Arguments
+\tString Str String()

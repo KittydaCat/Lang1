@@ -1,0 +1,28 @@
+
+- borrow checker
+	- Runtime borrow checker???
+- RAII but with complex drops
+	- still with 
+	- panicing is unsafe
+		- or catching a panic is unsafe b/c the stuff will get freed either way
+- use llvm for debug and self-hosted for release
+	- or compile to lambda calculus
+- Is there a way to make inheritance worse than requiring every class to inherit?
+	- base class is nullable
+		- null vs undefined js style
+	- multiple inheritence
+	- no functions besides methods
+- No implicit casting
+- How can we do the opposite of zig comptime?
+	- zig comptime at runtime????
+- [Reddit](https://www.reddit.com/r/ProgrammingLanguages/comments/jn3n4f/the_worst_features_of_every_language_you_can/)
+	- Fail as late as possible
+		- JS style
+	- Least useful thing by default
+	- Whitespace reqs
+	- goto and comefrom?
+	- .docx files
+		- .md?
+	- automatic semicolin, parens, bracket, brace
+	- ints of different sizes and types
+		- binary, octal, hex

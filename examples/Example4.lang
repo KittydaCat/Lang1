@@ -1,0 +1,19 @@
+Use StandardLibrary Collections String As String
+Use StandardLibrary Executable As Executable
+Use StandardLibrary Bool As Bool
+Use StandardLibrary Int As Int
+
+Inherit Executable
+
+String Str String()
+
+Void Execute Method String Arguments
+\tString Str String()
+\t
+\tInt I Int().Zero()
+\t
+\tDo
+\t\tIf I.ToBool()
+\t\t\tString SecondStr String()
+\t\tI.Increment()
+\tUntil Bool().True()
