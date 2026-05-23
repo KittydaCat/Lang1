@@ -1,4 +1,7 @@
+mod interpreter;
 mod parser;
+
+use interpreter::*;
 use parser::*;
 
 use std::fs::read_to_string;
@@ -18,10 +21,8 @@ fn main() {
     ));
     */
 
-    dbg!(parse_statements(
-        &mut dbg!(tokenize(&read_to_string("./examples/Main.lang").unwrap()))
-            .iter()
-            .peekable(),
-        0,
-    ));
+    dbg!(parse(&tokenize(
+        // &read_to_string("./examples/Example3.lang").unwrap()
+        &read_to_string("./examples/Main.lang").unwrap()
+    )));
 }
